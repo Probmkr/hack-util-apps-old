@@ -11,6 +11,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "app": "node app.js"
   }
 }
