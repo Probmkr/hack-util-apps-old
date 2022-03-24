@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "@types/node": "^17.0.21",
-    "node-sass": "^7.0.1"
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.9"
   },
   "scripts": {
     "build": "tsc",
