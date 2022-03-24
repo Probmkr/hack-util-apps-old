@@ -18,8 +18,15 @@
     "ts-node": "^10.7.0"
   },
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch",
-    "app": "node app.js"
+    "dev": "ts-node src/index.ts",
+    "dev:watch": "ts-node-dev --respawn src/index.ts",
+    "clean": "rimraf build/*",
+    "tsc": "tsc",
+    "build": "npm-run-all clean tsc",
+    "start": "node .",
+    "check-types": "tsc --noEmit",
+    "eslint": "eslint src/**/*.ts",
+    "eslint:fix": "eslint src/**/*.ts --fix",
+    "lint": "npm-run-all eslint check-types"
   }
 }
