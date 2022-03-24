@@ -8,6 +8,8 @@
   },
   "dependencies": {
     "@types/node": "^17.0.21",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^5.1.0",
     "node-sass": "^7.0.1",
     "sass": "^1.49.9"
   },
