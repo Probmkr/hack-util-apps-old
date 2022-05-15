@@ -6,15 +6,20 @@
 ## テスト環境の作り方
 
 まず、レポジトリをクローンします。
-`git clone https://github.com/Probmkr/hack-util-apps.git` （公開鍵の場合: `git clone git@github.com:Probmkr/hack-util-apps.git`）
+
+`git clone https://github.com/Probmkr/hack-util-apps.git`
+（公開鍵の場合: `git clone git@github.com:Probmkr/hack-util-apps.git`）
 
 次に、レポジトリのディレクトリに `cd` します。
+
 `cd hack-util-apps.git`
 
 必要な npm パッケージをインストールします。
+
 `npm i`
 
 開発用にサーバーを起動します。
+
 `npm run dev`
 
 これで好きなようにコードを編集してください。ブラウザでは即座に反映されます。
